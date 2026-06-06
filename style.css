@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background:
+        linear-gradient(135deg,
+            #548294,
+            #156281);
+
+    padding: 20px;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#clock {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.card p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.form-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-box input {
+    padding: 10px;
+    flex: 1;
+}
+
+.form-box button {
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#search {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+th {
+    background: #2563eb;
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.low {
+    color: red;
+    font-weight: bold;
+}
+
+.stock {
+    color: green;
+    font-weight: bold;
+}
+
+.edit {
+    background: #22c55e;
+}
+
+.delete {
+    background: #ef4444;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-box {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-box button {
+    background: #2563eb;
+}
